@@ -17,8 +17,15 @@ html {
 
 .max-width-wrapper {
   margin: auto;
-  max-width: 60ch;
+  max-width: 70ch;
   padding: 0px 32px;
+
+}
+
+@media (max-width: 801px) {
+  .max-width-wrapper {
+    padding: 0px;
+  }
 }
 
 strong {
@@ -29,8 +36,15 @@ header {
   padding: 64px 0px;
 }
 
+@media (max-width: 481px) {
+  header {
+    padding: 0px;
+  }
+}
+
 .intro-chunk {
   max-width: 350px;
+  padding: 24px;
 }
 
 main {
@@ -53,4 +67,10 @@ main {
   margin-top: -16px;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+@media (max-width: 801px) {
+  .indented-heading {
+    margin-left: -24px;
+  }
 }

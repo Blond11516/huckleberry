@@ -12,7 +12,7 @@ body {
 /* Add styles here! */
 
 html {
-  --border: 5px solid darkslategrey;
+  --border: 5px solid hsl(0deg, 0%, 40%);
 }
 
 .max-width-wrapper {
@@ -29,7 +29,7 @@ html {
 }
 
 strong {
-  color: green;
+  color: hsl(160deg, 100%, 30%);
 }
 
 header {
@@ -47,21 +47,25 @@ header {
   padding: 24px;
 }
 
+.intro-chunk p {
+  font-size: 1.25rem;
+}
+
 main {
-  background-color: grey;
+  background-color: hsl(0deg, 0%, 60%);
   border-top: var(--border);
   padding: 64px 0px;
 }
 
 .card {
-  background-color: white;
+  background-color: hsl(0deg, 0%, 100%);
   border-bottom: var(--border);
   padding: 24px;
 }
 
 .indented-heading {
-  background-color: gold;
-  border-bottom: 5px solid goldenrod;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 5px solid hsl(45deg, 100%, 40%);
   padding: 16px 24px;
   margin-left: -32px;
   margin-top: -16px;

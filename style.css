@@ -10,3 +10,47 @@ body {
 }
 
 /* Add styles here! */
+
+html {
+  --border: 5px solid darkslategrey;
+}
+
+.max-width-wrapper {
+  margin: auto;
+  max-width: 60ch;
+  padding: 0px 32px;
+}
+
+strong {
+  color: green;
+}
+
+header {
+  padding: 64px 0px;
+}
+
+.intro-chunk {
+  max-width: 350px;
+}
+
+main {
+  background-color: grey;
+  border-top: var(--border);
+  padding: 64px 0px;
+}
+
+.card {
+  background-color: white;
+  border-bottom: var(--border);
+  padding: 24px;
+}
+
+.indented-heading {
+  background-color: gold;
+  border-bottom: 5px solid goldenrod;
+  padding: 16px 24px;
+  margin-left: -32px;
+  margin-top: -16px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
